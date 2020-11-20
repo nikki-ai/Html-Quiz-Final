@@ -252,6 +252,7 @@ function restartButton() {
     event.preventDefault();
     store.questionNumber = 0;
     store.score = 0;
+    store.wrongCount = 0;
     $('body').removeClass(
       'oscar phyllis Dwight DwightJim Pam Jim Kevin Michael'
     );
